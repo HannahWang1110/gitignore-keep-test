@@ -1,3 +1,6 @@
+# ignore all files under folder logs
 logs/*
+# but keep the 'logs' folder
 !.gitkeep
+# ignore the specific file
 .vscode/settings.json
